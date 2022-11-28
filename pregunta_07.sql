@@ -43,3 +43,7 @@
 -- 
 --  >>> Escriba su codigo a partir de este punto <<<
 --
+SELECT * FROM `tbl1`
+WHERE NOT(k0 LIKE 'A' OR k0 LIKE 'B')
+AND NOT(c13 = 200 OR c13 = 900)
+ORDER BY c14;
